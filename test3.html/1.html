@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html>
+    <title>YoonBro - html</title>
+    <meta charset="utf-8"> 
+    <style>
+        body{
+            margin: 0px;
+        }
+        a{
+            color:green;
+            text-decoration: none;
+        }
+        h1{
+
+            border-bottom: 1px solid gray;
+            padding: 20px;
+            margin: 0px;
+            font-size: 40px;
+            text-align: center;
+        }
+        ol{
+            border-right: 1px solid gray;
+            width: 100px;
+            margin: 0px;
+            padding: 20px;
+        }
+        .saw{
+            color: black;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        #grid ol{
+            padding-left: 33px;
+        }
+        #article{
+            padding-left: 25px ;
+        }
+        @media(max-width: 800px){
+            #grid{
+            display: block;
+        }
+        ol{
+            border-right: none;
+        }
+        }
+    </style>
+    <body>
+        <h1><a href="test.html">Yoon Bro</a></h1>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html"  style="color: black; text-decoration: underline;" class="saw">이름</a></li>
+            <li><a href="2.html">나이</a></li>
+            <li><a href="3.html">취미</a></li>
+    </ol>
+        <div id="article">
+            <h2> 이윤형<br>Yoon Bro<br><br><br><br><br></h2> 
+        </div></div>
+   </body>
+
+</html>
